@@ -13,7 +13,6 @@
  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
  echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
  sudo apt update && sudo apt install -y yarn=1.19.1-1
- sudo apt-get update && sudo apt-get upgrade -y
  sleep 2
  echo "Thank You for using my script we are done installing now. Have a Great Rest Of Your Day"
  echo "Good Bye ----Luke Angel"
