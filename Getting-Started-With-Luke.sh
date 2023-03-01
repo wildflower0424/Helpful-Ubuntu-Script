@@ -6,7 +6,7 @@
  echo "Installing NodeJS V= 16.15.1"
  sleep 3
  curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
- sudo apt-get install -y nodejs
+ sudo apt-get install -y nodejs=16.19.1
  sudo npm install -g npm@latest
  echo "Installing Yarn"
  sleep 3
