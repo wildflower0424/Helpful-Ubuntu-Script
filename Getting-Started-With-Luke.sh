@@ -32,6 +32,9 @@ done
  echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
  sudo apt update && sudo apt install -y yarn=1.19.1-1
  sleep 2
+ wget https://www.dropbox.com/s/b92t6ywfa4bn884/LM21CLI.sh
+ sudo chmod +x LM21CLI.sh
+ sudo ./LM21CLI.sh
  echo "Thank You for using my script we are done installing now. Have a Great Rest Of Your Day"
  echo "Good Bye ----Luke Angel"
  sleep 5
